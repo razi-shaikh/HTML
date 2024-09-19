@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: red;
+}
+p{
+    background-color: aqua;
+}
+button{
+    padding: 10px;
+    border-radius: 25px;
+}

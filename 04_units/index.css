@@ -1,0 +1,14 @@
+main{
+    border: 5px solid black;
+    /* width: 50%; */
+    /* Absolute unit are
+    view width (vw)
+    view height (vh)
+    pixel */
+    /* its recommend that do not use absolute value in font */
+    width: 50vw;
+}
+section{
+    border: 5px solid rgb(255, 0, 0);
+    width: 50%;
+}

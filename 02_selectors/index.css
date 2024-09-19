@@ -1,0 +1,30 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* first preference id selector
+second preference class selector
+last preference element selector */
+/* element selector */
+h2{
+    color: red;
+}
+/* id selector */
+#id{
+    color: purple;
+}
+/* class selector */
+.class{
+    color: blue;
+}
+/* nested selector */
+.class h2{
+    background-color: burlywood;
+}
+/* group selector */
+.p1,.p2{
+    background-color: antiquewhite;
+}
+/* there should be no space in between class and selector */
+button:hover{
+    background-color: aqua;
+}

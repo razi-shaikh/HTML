@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.smallBoldText{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* utility */
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-inline: var(--padding-inline-section);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.hoverLinks{
+    color: var(--primary-text-color);
+}
+.hoverLinks:hover{
+    color: var(--accent-color);
+}
+.primaryButton{
+    color: white !important;
+    background-color: var(--accent-color);
+    font-weight: 600;
+    padding: 12px 24px;
+    /* border: 1px solid var(--secondary-text-color); */
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+}
+.primaryButton:hover{
+    background-color: var(--accent-color-dark);
+}
+.secondaryButton{
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: var(--primary-text-color) !important;
+    transition: 0.3s ease-out;
+}
+.secondaryButton:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+/* topBanner */
+.topBanner{
+    background-image: url("./assets/asset\ 18.png");
+    background-size: 300px;
+    background-color: #4FB3D5;
+    height: 54px;
+}
+.bannerText{
+    text-align: center;
+    padding: 15px 30px;
+}
+
+/* navigation bar */
+.mainMenu{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.companyLogo{
+    width: 200px;
+}
+ul{
+    list-style: none;
+}
+.rightNav{
+    flex-basis:700px;
+}
+.menu{
+    /* background-color: #183b56; */
+    justify-content: end;
+    gap: 40px;
+    font-size: var();
+}
+
+/* heroBanner */
+.mainHeader{
+    margin: 50px 20px 0;
+}
+.headerLeft{
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.headerLeft h2{
+    font-size: 3rem;
+}
+.headerRight img{
+    width: 40vw;
+    margin-left: 50px;
+}
+
+/* brandLogo */
+.logo{
+    height: 46px;
+}
+.logoBox{
+    justify-content: space-around;
+}
+.brandLogo{
+    margin: 30px 0;
+}
+.brandLogo>:first-child{
+    text-align: center;
+    margin: 20px;
+}
+
+/*  */

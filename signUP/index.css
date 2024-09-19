@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #66A7E3;
+}
+.outerBox{
+    background-color: #7DE8FD;
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.innerBox{
+    padding: 25px 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    /* background-color: white; */
+    background-color: rgba(255, 255, 255, 0.466);
+    position: relative;
+    top: 15%;
+    border-radius: 10px;
+    z-index: 1;
+}
+input{
+    width: 325px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 2px solid #C9D6DB;
+}
+input[type=button]{
+    background-color: #2B7FC1;
+    border: none;
+}
+button{
+    background-color: #2B7FC1;
+    border: none;
+    width: 325px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+img{
+    /* padd: 5px; */
+    width: 30px;
+    display: inline-flex;
+    object-fit: cover;
+}
+.google{
+    background-color: white;
+    border: 2px solid #C9D6DB;
+}
+.facebook{
+    background-color: #4267B2;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box1{
+    top: 70px;
+    left: 80px;
+    border-radius: 100px;
+    background: linear-gradient(to top left, #ffffff33, #ffffffff);
+    position: absolute;
+}
+.box2{
+    bottom: 40px;
+    right: 65px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+p{
+    margin: 20px;
+}
